@@ -263,8 +263,8 @@ section{
       transform: translateX(0);
     }
     50% {
-      transform: translateX(-20vw) translateY(50vh);
-    }
+      transform: translateX(-20vw) translateY(50vh); /* Moved left by 20vw (20% of the viewport width) */
+    } /* Moved down by 50vh (50% of the viewport height) */
     100% {
       transform: translateX(0);
     }
